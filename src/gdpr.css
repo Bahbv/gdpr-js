@@ -1,0 +1,83 @@
+/*~~~~~~~~~ Default gdpr banner style ~~~~~~~~~~~~*/
+.gdpr-banner {
+    position:fixed;
+    bottom:0;
+	z-index:9999;
+    border-top:2px solid #4CAF50; 
+    background-color:white;
+    color:black;
+    font-family: 'Arial', 'Open Sans', 'Roboto', sans-serif;
+    font-size:small;
+}
+.gdpr-banner-link {
+    text-decoration:none;
+    font-weight:600;
+    color:black;
+}
+.gdpr-banner-link:hover {
+    text-decoration:underline;
+}
+.gdpr-banner-desc {
+    text-align: justify;
+    padding-right: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.gdpr-banner-right {
+    padding:10px 20px 10px 20px;
+}
+.gdpr-banner-accept, .gdpr-banner-decline {
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.gdpr-banner-decline {
+    margin-bottom:10px;
+    color:black;
+    border: 2px solid #f44336;
+}
+.gdpr-banner-decline:hover {
+    background-color: #f44336; 
+    color: white;
+}
+.gdpr-banner-accept {
+    color:black;
+    border: 2px solid #4CAF50; 
+}
+.gdpr-banner-accept:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+@media only screen and (min-width:668px){
+    .gdpr-banner-right {
+        text-align:center;
+    }
+    .gdpr-banner-decline {
+        margin-bottom:0px;
+        margin-right:10px;
+    }
+    
+    .gdpr-banner-accept, .gdpr-banner-decline {
+        width:unset;
+        padding: 10px 60px;
+    }
+}        
+@media only screen and (min-width:901px){
+    .gdpr-banner-desc {
+        padding-right: 340px;
+    }
+    .gdpr-banner-right {
+        width: 300px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .gdpr-banner-accept, .gdpr-banner-decline {
+        width:unset;
+        padding: 10px 26px;
+    }
+}
