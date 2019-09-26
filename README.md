@@ -1,31 +1,31 @@
 # gdpr-js
 jQuery cookie banner
 
-#~~~~~~~~~~~~~~~~~~~~~~~~Usage~~~~~~~~~~~~~~~~~~~~~~~~ 
-### Block src scripts
+# Usage
+####Block src scripts
 <script type="text/plain" src="scripts.js" class="block-cookie"></script>
 
-### Block inline scripts
+#### Block inline scripts
 <script type="text/plain" class="block-cookie">
 	// Your scripts ( Run only if consent is true)
 </script>
 
-### Block src elements ( iframe, img, ecc.. )
+#### Block src elements ( iframe, img, ecc.. )
 <iframe block-src="https://www.youtube.com/embed/kxopViU98Xo" class="block-cookie"></iframe>
 
-## Public Methods
+#### Public Methods
 This method returns true or false if cookies are accepted.
 $.gdprBanner.consent();
 
 This method manually overwrites the cookie consent
 $.gdprBanner.setConsent(false);
 
-### Condition
+#### Condition
 if ( $.gdprBanner.consent()) {
 	// Your scripts ( Run only if consent is true)
 }
 
-## Initializing
+#### Initializing
 $(document).ready(function() {
 	$.gpdrBanner({
 		culture: 'nl',
@@ -36,10 +36,10 @@ $(document).ready(function() {
 	});
 });
 
-## Extra
+### Extra
 The block-cookie class is removed after consent, so you can use this to show/inject a cookies are disabled message.
 
-#~~~~~~~~~~~~~~~~~~~~~~~~Properties~~~~~~~~~~~~~~~~~~~~~~~~ 
+## Properties
 #### bannerClass:
 String: Banner class
 Default: 'gdpr-banner'
@@ -100,7 +100,7 @@ declineButtonText: {
 String: Class for accept text
 Default: 'gdpr-banner-taccept'
 
-### declineButtonTextClass
+#### declineButtonTextClass
 String: Class for decline text
 Default: 'gdpr-banner-tdecline'
 
@@ -141,8 +141,8 @@ Boolean:  Reload page when button ("consentClass") is accepted
 Default: false
 
 
-#~~~~~~~~~~~~~~~~~~~~~~~More~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-## Event Hooks
+## More
+####  Event Hooks
 The event triggered when cookies are accepted or declined
 
 $( document ).on( "onConsent", function() {
