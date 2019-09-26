@@ -36,7 +36,7 @@ $(document).ready(function() {
 	});
 });
 
-### Extra
+#### Extra
 The block-cookie class is removed after consent, so you can use this to show/inject a cookies are disabled message.
 
 ## Properties
