@@ -2,7 +2,7 @@
 jQuery cookie banner
 
 # Usage
-####Block src scripts
+#### Block src scripts
 <script type="text/plain" src="scripts.js" class="block-cookie"></script>
 
 #### Block inline scripts
