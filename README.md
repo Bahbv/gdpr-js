@@ -103,7 +103,7 @@ String: Class for explicit accept button
 Default: 'cookie-banner-decline'
 
 #### acceptButtonText:
-String: accept button Text  
+Object: accept button Text  
 Default:
 ```javascript
 acceptButtonText: {
@@ -113,7 +113,7 @@ acceptButtonText: {
 }
 ```
 #### declineButtonText:
-String: accept button Text  
+Object: decline button Text  
 Default:
 ```javascript
 declineButtonText: {
