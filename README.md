@@ -67,7 +67,7 @@ Object: Policy page link text
 Default:
 ```javascript
 bannerLinkText: {
-    nl: 'Lees meer',
+  	 nl: 'Lees meer',
 	en: 'Learn more',
 	de: 'Mehr dazu'
 },
@@ -77,7 +77,7 @@ Object: Banner text
 Default:
 ```javascript
 bannerText: {
-    nl: 'Deze website maakt gebruik van cookies. Wij onderscheiden functionele cookies en cookies voor het beheer van webstatistieken, het tonen van videos, het personaliseren van advertenties en het integreren van social media. Wij slaat geen persoonlijke gegevens op.',
+   	nl: 'Deze website maakt gebruik van cookies. Wij onderscheiden functionele cookies en cookies voor het beheer van webstatistieken, het tonen van videos, het personaliseren van advertenties en het integreren van social media. Wij slaat geen persoonlijke gegevens op.',
 	en: 'This website uses cookies (also third-party cookies) to provide you a better navigation experience.',
 	de: 'Diese Website verwendet Cookies, auch von Dritten, um Ihre Browser-Erfahrung zu verbessern.'
 },
