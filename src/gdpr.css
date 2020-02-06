@@ -9,6 +9,7 @@
     color:black;
     font-family: inherit;
     font-size:small;
+    min-height:64px;
 }
 .gdpr-banner-link {
     text-decoration:none;
@@ -46,12 +47,13 @@
     color: white;
 }
 .gdpr-banner-accept {
-    color:black;
-    background-color:#009dfa;
-    border: 2px solid #009dfa;
+    color:white;
+    background-color:black;
+    border: 2px solid black;
 }
 .gdpr-banner-accept:hover {
-    background-color: #007dc5;
+    background-color: transparent;
+    color:black;
 }
 @media only screen and (min-width:668px){
     .gdpr-banner-right {

@@ -6,8 +6,8 @@ gdpr.js is a jQuery cookiebanner that blocks scripts and src elements if no cons
 
 ```javascript
 $(document).ready(function() {
-	$.gpdrBanner({
-		culture: 'nl',
+	$.gdprBanner({
+		language: 'nl',
 		cookiePageUrl: {
 			nl: '/privacy/',           
 		}
