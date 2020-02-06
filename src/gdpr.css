@@ -1,12 +1,13 @@
 /*~~~~~~~~~ Default gdpr banner style ~~~~~~~~~~~~*/
 .gdpr-banner {
     position:fixed;
+    width:100%;
     bottom:0;
 	z-index:9999;
-    border-top:2px solid #4CAF50; 
-    background-color:white;
+    border-top:2px solid black;
+    background-color:#fafafa;
     color:black;
-    font-family: 'Arial', 'Open Sans', 'Roboto', sans-serif;
+    font-family: inherit;
     font-size:small;
 }
 .gdpr-banner-link {
@@ -38,19 +39,19 @@
 .gdpr-banner-decline {
     margin-bottom:10px;
     color:black;
-    border: 2px solid #f44336;
+    border: 2px solid black;
 }
 .gdpr-banner-decline:hover {
-    background-color: #f44336; 
+    background-color: black; 
     color: white;
 }
 .gdpr-banner-accept {
     color:black;
-    border: 2px solid #4CAF50; 
+    background-color:#009dfa;
+    border: 2px solid #009dfa;
 }
 .gdpr-banner-accept:hover {
-    background-color: #4CAF50; 
-    color: white;
+    background-color: #007dc5;
 }
 @media only screen and (min-width:668px){
     .gdpr-banner-right {
