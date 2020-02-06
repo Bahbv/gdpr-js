@@ -88,21 +88,17 @@
         }
         // Create true 
         function createCookieOnConsent() {
-            if (readCookie(defaults.cookieName) === null) {
                 createCookie(defaults.cookieName, 'true', defaults.cookieExpiry);
                 $(document).trigger('onConsent');
                 // Run callback
                 defaults.onConsent.call();
-            }
         }
         // Create false
         function createCookieNoConsent() {
-            if (readCookie(defaults.cookieName) === null) {
                 createCookie(defaults.cookieName, 'false', defaults.cookieExpiry);
                 $(document).trigger('noConsent');
                 // Run callback
                 defaults.onNoConsent.call();
-            }
         }
         // On privacy page
         function isPrivacyPage() {
