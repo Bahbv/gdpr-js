@@ -1,4 +1,9 @@
-// gdpr.js v1.0 - Bob Vrijland - www.esens.nl
+/**
+ * A JQuery cookiebanner compliant with current EU Rules
+ * 
+ * @Author Bob Vrijland
+ * 
+ */
 (function ($, window, document, undefined) {
     $.gdprBanner = function (settings) {
         var defaults = {
